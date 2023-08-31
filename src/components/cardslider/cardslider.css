@@ -1,0 +1,17 @@
+.container{
+    width: 100%;
+    overflow-x: hidden;
+}
+.carousel{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap:79px;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:x mandatory;
+    scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar{
+  display: none;
+}
